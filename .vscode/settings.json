@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "dataset_finnbox.h": "c",
+        "dataset_sum.h": "c"
+    }
+}
