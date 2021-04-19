@@ -19,8 +19,7 @@ const double LEARNING_RATE = 9e-5;
 const int EPOCH_COUNT = 100000;
 const int NEURAL_INPUT_SIZE = INPUT_SIZE + 1;
 
-double
-forward_once(double input[INPUT_SIZE])
+double forward_once(double input[INPUT_SIZE])
 {
 	double result = dot(input, synaptic_weights, INPUT_SIZE);
 	result += synaptic_weights[NEURAL_INPUT_SIZE - 1];
